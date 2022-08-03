@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, #4802aa, #8000b3);
+}
+
+.container-login{
+    border-radius: 15px;
+    position: absolute;
+    height: 520px;
+    width: 900px;
+    left: 330px;
+    top: 100px;
+    background-color: white;
+}
+
+.container-login .toptxt h1{
+    font-family: Calibri;
+    position: absolute;
+    left: 600px;
+    top: 80px;
+}
+
+.container-login .img{
+    position: absolute;
+    height: 380px;
+    width: 380px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+.container-login #email-icon{
+    position: absolute;
+    top: 163px;
+    left: 535px;
+}
+
+.container-login #password-icon{
+    position: absolute;
+    top: 241px;
+    left: 535px;
+}
+
+#email{
+    margin-top: 150px;
+}
+
+.container-login input{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-left: 520px;
+    width: 300px;
+    padding: 12px 12px 12px 40px;
+    margin-top: 36px;
+    font-size: 16px;
+    background-color: rgba(235, 233, 233, 0.59);
+}
+
+.container-login input.btn{
+    color: white;
+    background-color: rgb(41, 209, 49);
+    padding: 8px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    transform: translateY(-2px);
+}
+
+.container-login input.btn:hover{
+    background-color: rgb(45, 175, 255);
+}
+.container-login input.btn:active {
+    transform: translateY(-0.5px);
+}
+
+.container-login .link{
+    margin-top: 20px;
+    margin-left: 570px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.container-login .link a{
+    color: rgb(37, 183, 44);
+    text-decoration: none;
+}
+
+.container-login .link a:hover{
+    font-weight: 600;
+}
+
+#extra-link{
+    position: absolute;
+    top: 430px;
+    left: 590px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(37, 183, 44);
+    text-decoration: none;
+}
+
+#extra-link:hover{
+    font-weight: 600;
+}
+
+.container-signup{
+    border-radius: 15px;
+    position: absolute;
+    height: 560px;
+    width: 400px;
+    left: 580px;
+    top: 80px;
+    background-color: white;
+}
+
+.container-signup .toptxt h1{
+    font-family: Calibri;
+    margin-top: 15px;
+    margin-left: 120px;
+    margin-bottom: -16px
+}
+
+
+.container-signup input{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-left: 50px;
+    width: 300px;
+    padding: 12px 12px 12px 30px;
+    margin-top: 36px;
+    font-size: 16px;
+    background-color: rgba(235, 233, 233, 0.59);
+}
+
+.container-signup input.btn{
+    color: white;
+    background-color: rgb(41, 209, 49);
+    padding: 8px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    transform: translateY(-2px);
+}
+
+.container-signup input.btn:hover{
+    background-color: rgb(45, 175, 255);
+}
+.container-signup input.btn:active {
+    transform: translateY(-0.5px);
+}
+
+.container-signup .link{
+    margin-top: 15px;
+    margin-left: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.container-signup .link a{
+    color: rgb(37, 183, 44);
+    text-decoration: none;
+}
+
+.container-signup .link a:hover{
+    font-weight: 600;
+}
+
+.container-reset{
+    border-radius: 15px;
+    position: absolute;
+    height: 320px;
+    width: 400px;
+    left: 580px;
+    top: 190px;
+    background-color: white;
+}
+
+.container-reset .toptxt h1{
+    font-family: Calibri;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-bottom: -8px
+}
+
+.container-reset input{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-left: 50px;
+    width: 300px;
+    padding: 12px 12px 12px 30px;
+    margin-top: 36px;
+    font-size: 16px;
+    background-color: rgba(235, 233, 233, 0.59);
+}
+
+.container-reset input.btn{
+    color: white;
+    background-color: rgb(41, 209, 49);
+    padding: 8px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    transform: translateY(-2px);
+}
+
+.container-reset input.btn:hover{
+    background-color: rgb(45, 175, 255);
+}
+.container-reset input.btn:active {
+    transform: translateY(-0.5px);
+}
+
+.container-otp{
+    border-radius: 15px;
+    position: absolute;
+    height: 320px;
+    width: 400px;
+    left: 580px;
+    top: 200px;
+    background-color: white;
+}
+
+.container-otp .toptxt h2{
+    font-family: Calibri;
+    margin-top: 15px;
+    margin-left: 120px;
+    margin-bottom: -8px
+}
+
+.container-otp .toptxt p{
+    font-family: Calibri;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: -8px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.container-otp i{
+    position: absolute;
+    top: 152px;
+    left: 65px;
+}
+
+.container-otp input{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-left: 50px;
+    width: 300px;
+    padding: 12px 12px 12px 40px;
+    margin-top: 36px;
+    font-size: 16px;
+    background-color: rgba(235, 233, 233, 0.59);
+}
+
+.container-otp input.btn{
+    color: white;
+    background-color: rgb(41, 209, 49);
+    padding: 8px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    transform: translateY(-2px);
+}
+
+.container-otp input.btn:hover{
+    background-color: rgb(45, 175, 255);
+}
+.container-otp input.btn:active {
+    transform: translateY(-0.5px);
+}
+
+.container-otp .link{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.container-otp .link a{
+    color: rgb(37, 183, 44);
+    text-decoration: none;
+}
+
+.container-otp .link a:hover{
+    font-weight: 600;
+}
