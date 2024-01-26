@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/static/CSS/first.css">
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+
+<h2>Cell that spans two columns</h2>
+<p>To make a cell span more than one column, use the colspan attribute.</p>
+
+<table>
+  <tr>
+    <th>
+        Name
+    </th>
+    <th rowspan="2">
+      Name
+    </th>
+    <th>
+      Roll no.
+    </th>
+
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>43</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>57</td>
+  </tr>
+</table>
+<form action="get">
+  <input type="submit" id="btn" value="Click here">
+</form>
+</body>
+</html>
+

@@ -1,0 +1,838 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #000;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+#particles-js{
+    height: 80%;
+    width: 100%;
+    background: #000;
+    position: absolute;
+}
+
+
+
+
+/* NAVBAR ........................ */
+
+.navbar
+{
+    margin-top: 1.1%;
+    padding-right: 0%;
+    position: relative;
+    background-color: #000;
+    width: 100%;
+    height: 75px;
+    color: #fff;
+}
+
+.navbar img
+{
+    position: relative;
+    float: left;    
+    padding: 14px 2px;
+    padding-left: 10px;
+}
+
+.navbar span
+{
+    position: relative;
+    padding: 21px 2px;
+    font-size: 23px;
+    font-weight: 600;
+    float: left;
+}
+
+.navbar ul
+{
+    position: relative;
+    padding-top: 14px;
+    padding-right: 50px;
+    float: right;
+    list-style-type: none;
+
+}
+
+.navbar ul li
+{
+    position: relative;
+    float: left;
+    padding-right: 40px;
+}
+
+.navbar ul li a
+{
+    font-size: 14px;
+    position: relative;
+    font-weight: 600;
+    text-decoration: none; 
+    color: inherit;
+    border: 2px solid #000;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+ 
+ .navbar ul li a:hover
+{
+    position: relative;
+    color: #FEE715FF;
+    font-weight: 600;
+} 
+
+
+
+
+
+.technology-heading
+{
+    position: relative;
+    height: 330px;
+    width: 100%;
+}
+
+.technology-heading  h1
+{
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    left: 13%;
+    margin-right: 50%;
+    margin-top: 10%;
+    color: #FEE715FF;
+    width: 74%;
+}
+
+.technology-heading  h4
+{
+    left: 10%;
+    text-align: center;
+    position: relative;
+    width: 80%;
+    font-size: 30px;
+    margin-top: 30px;
+    right: -10%;
+    color: #fff;
+
+}
+
+.technology-heading #tech-heading-a{
+    position: relative;
+    font-size: medium;
+    font-weight: 550;
+    margin-top: -5px;
+    margin-left: 41.2em;
+    display: inline-block;
+    border-radius: 6px;
+    border: 3px solid #FEE715FF;
+    color: #FEE715FF;
+    padding: 9px 29px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.technology-heading #tech-heading-a:hover{
+    position: relative;
+    background-color: #FEE715FF;
+    color: #000;
+    transition: 0.3s;
+}
+
+
+
+
+
+.technology-container1
+{
+    height: 750px;
+    width: 100%;
+    background-color: #FEE715FF;
+    color: #000;
+}
+
+
+.effort{
+    position: relative;
+    top: 20.8%;
+    margin-top: 0%;
+    left: 32%;
+
+}
+.technology-container1 h1
+{
+    text-decoration: underline;
+    position: relative;
+    float: left;
+    padding-top: 6%;
+    padding-bottom: 3%;
+    padding-left: 36%;
+}
+.technology-container1 h5
+{
+    position: relative;
+    text-align: -webkit-center;
+    margin-top: 0%;
+    left: 13%;
+    font-size: 24px;
+    font-weight: 100px;
+    width: 41%;
+    padding-top: 6px;
+    margin-left: -2%;
+}
+.technology-container1 > .tech1-sub1-con1
+{
+    position: relative;
+    margin-top: 2%;
+    width: 25%;
+    height: 30px;
+    left: 20%;
+}
+.technology-container1 > .tech1-sub1-con1 >  img
+{
+    float: left;
+    margin-left: -35%;
+    margin-top: 3%;
+}
+.technology-container1 > .tech1-sub1-con1 > h4
+{
+    margin-top: 11px;
+    margin-left: -22%;
+    float: left;
+    font-size: 19px;
+    text-decoration: underline;
+}
+.technology-container1 > .tech1-sub2-con1
+{
+    position: relative;
+    top:5px;
+    height: 30px;
+    width: 35%;
+    left: 20%;
+}
+.technology-container1 > .tech1-sub2-con1 >  img
+{
+    float: left;
+    margin-left: -68%;
+    margin-top: 7%;
+}
+.technology-container1 > .tech1-sub2-con1 > h4
+{
+    margin-top: 14px;
+    margin-left: -16%;
+    float: left;
+    font-size: 19px;
+    text-decoration: underline;
+}
+.technology-container1 > .tech1-sub3-con1
+{
+    position: relative;
+    top: 10px;
+    padding-bottom: 4%;
+    height: 30px;
+    width: 20%;
+    left: 20%;
+}
+.technology-container1 > .tech1-sub3-con1 >  img
+{
+    float: left;
+    margin-left: -210%;
+    margin-top: 22%;
+}
+.technology-container1 > .tech1-sub3-con1 > h4
+{
+    width: 73%;
+    margin-top: 14px;
+    margin-left: -28%;
+    float: left;
+    font-size: 19px;
+    text-decoration: underline;
+}
+.technology-container1 > img
+{
+    height: 60%;
+    width: auto;
+    float: right;
+    margin-top: -500px;
+    margin-right: 15%;
+    box-shadow:  lightcoral 8px 8px, black 10px 10px, lightblue 16px 16px,  black 18px 18px;;
+}
+
+
+
+.technology-container2 
+{
+    position: relative;
+    height: 536px;
+    width: 100%;
+    background-color:  #000;
+    color: #FEE715FF;
+}
+
+.technology-container2 > .tech2-div1
+{
+    position: relative;
+    padding-top: 2%;
+    padding-left: 7%;
+    width: 40%;
+    text-align: center;
+}
+
+.technology-container2 .tech2-con1-h1{
+    position: absolute;
+    font-size: 33px;
+    margin-top: 25%;
+    left: 77%;
+    font-weight: 100px;
+    padding-top: 10%;
+    width: 70%;
+}
+
+.technology-container2 > .tech2-div1 > .tech2-con2-h4
+{
+    position: absolute;
+    font-size: 28px;
+    margin-top: 50%;
+    font-weight: lighter;
+    left: 36%;
+    font-weight: 100px;
+    width: 148%;
+}
+
+.technology-container2 > .tech2-div2
+{
+    float: right;
+    width: 66%;
+    text-align: center;
+    padding-top: 2%;
+    padding-right:14.8%;
+}
+
+.technology-container2 > .tech2-div2 > .tech2-con3-h1{
+    font-size: 33px;
+}
+.technology-container2 > .tech2-div2 > .tech2-con4-h4
+{
+    font-weight: lighter;
+    margin-top: 1%;
+    font-size: 28px;
+}
+
+
+
+
+
+.technology-container3
+{
+    margin-top: 0%;
+    height: 575px;
+    width: 100%;
+    background-color: #FEE715FF;
+    color: #000;
+    text-align: center;
+}
+
+
+.technology-container3 #tech3-img{
+    height: 304px;
+    width: 496px;
+	background: #fff;
+    margin-top: 4%;
+    margin-left: 4%;
+    box-shadow:  lightcoral -8px 8px, black -10px 10px, lightblue -16px 16px,  black -18px 18px;
+}
+
+
+.technology-container3 h1{
+    color: #020412;
+    left: 0%;
+    position: relative;
+    top: 8%;
+    text-decoration: underline;
+}
+
+
+.technology-container3 h4{
+    position: relative;
+    font-size: 20px;
+    color: #020412;
+    width: 54%;
+    top: 7%;
+    left: 23%;
+}
+
+
+
+
+
+
+.technology-container4
+{
+    margin-top: -16px;
+    position: relative;
+    height: 190%;
+    width: 100%;
+    background-color: #000;
+    color: #FEE715FF;
+    text-align: center;
+}
+.technology-container4 > h1
+{
+    padding-top: 62px;
+    font-size: 2em;
+}
+.technology-container4 > h4
+{
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 90%;
+    font-size: 20px;
+}
+.technology-container4 > .tech4-sub1-con1
+{
+    height:100px;
+    margin-top: 60px;
+    margin-left: 10%;
+}
+.technology-container4 > .tech4-sub1-con1 > h1
+{
+    text-align: left;
+}
+.technology-container4 > .tech4-sub1-con1 > h4
+{
+    padding-top: 10px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 6%;
+    font-weight: lighter;
+}
+.technology-container4 > .tech4-sub1-con1 > #img1
+{
+    margin-top: 7px;
+    float: left;
+}
+.technology-container4 > .tech4-sub1-con1 > #img2
+{
+    margin-top: 59px;
+    margin-left: -3%;
+    float: left;
+}
+.technology-container4 > .tech4-sub2-con1
+{
+    height:110px;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.technology-container4 > .tech4-sub2-con1 > h1
+{
+    text-align: left;
+    margin-left: 4%;
+}
+.technology-container4 > .tech4-sub2-con1 > h4
+{
+    font-weight: lighter;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 6%;
+}
+.technology-container4 > .tech4-sub2-con1 > #img1
+{
+    float: left;
+    margin-top: 5px;
+}
+.technology-container4 > .tech4-sub2-con1 > #img2
+{
+    margin-top: 40px;
+    margin-left: -3%;
+    float: left;
+}
+.technology-container4 > .tech4-sub3-con1
+{
+    height:130px;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.technology-container4 > .tech4-sub3-con1 > h1
+{
+    text-align: left;
+    margin-left: 4%;
+}
+.technology-container4 > .tech4-sub3-con1 > h4
+{
+    text-align: left;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-left: 6%;
+    font-weight: lighter;
+}
+.technology-container4 > .tech4-sub3-con1 > #img1
+{
+    float: left;
+    margin-top: 6px;
+}
+.technology-container4 > .tech4-sub3-con1 > #img2
+{
+    margin-top: 40px;
+    margin-left: -3%;
+    float: left;
+}
+.technology-container4 > .tech4-sub4-con1
+{
+    height:110px;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.technology-container4 > .tech4-sub4-con1 > h1
+{
+    text-align: left;
+    margin-left: 4%;
+}
+.technology-container4 > .tech4-sub4-con1 > h4
+{
+    padding-top: 10px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 6%;
+    font-weight: lighter;
+}
+.technology-container4 > .tech4-sub4-con1 > #img1
+{
+    float: left;
+    margin-top: 6px;
+}
+.technology-container4 > .tech4-sub4-con1 > #img2
+{
+    margin-top: 40px;
+    margin-left: -3%;
+    float: left;
+}
+.technology-container4 > .tech4-sub5-con1
+{
+    height:100px;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.technology-container4 > .tech4-sub5-con1 > h1
+{
+    text-align: left;
+    margin-left: 5%;
+}
+.technology-container4 > .tech4-sub5-con1 > h4
+{
+    padding-top: 10px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 6%;
+}
+.technology-container4 > .tech4-sub5-con1 > #img1
+{
+    float: left;
+    margin-top: 6px;
+    margin-left: 7px;
+}
+
+
+
+.footer-style {
+    position: relative;
+    background: #fff;
+    height: 250px;
+    padding: 20px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -15%;
+  }
+  
+
+  .social-icon,
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .social-icon__item,
+  .menu__item {
+    list-style: none;
+  }
+  
+  .social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+  }
+  .menu__link:hover{
+      color: white;
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  
+  .footer-style  p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(/static/IMAGES/wave.png);
+    background-size: 1000px 100px;
+  }
+  
+  .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWaves 4s linear infinite;
+  }
+  
+  .wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 4s linear infinite !important;
+  }
+  
+  .wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWaves 3s linear infinite;
+  }
+  
+  .wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+  }
+  
+  @keyframes animateWaves {
+    0% {
+      background-position-x: 1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position-x: -1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
+
+
+
+
+
+
+  .footer-style > #footer-style-container
+{
+    height: 80%;
+}
+
+.footer-style > #footer-style-container > #footer-style-contect-us
+{
+    height: 100%;
+    width: 25%;
+    position: relative;
+    float: left;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.footer-style > #footer-style-container > #footer-style-contect-us > h3
+{
+    position: relative;
+    font-size: 25px;
+    margin-top: 36px;
+    margin-bottom: 20px;
+    margin-left: -56%;
+}
+
+.footer-style > #footer-style-container > #footer-style-contect-us > h4
+{
+    position: relative;
+    margin-left: -50%;
+    font-size: 20px;
+}
+
+
+.footer-style > #footer-style-container > #footer-style-contect-us > img
+{
+    float: left;
+    margin-left: 13%;
+    margin-top: 21px;
+    margin-left: -20%;
+}
+
+.footer-style > #footer-style-container > #footer-style-contect-us > a
+{
+    margin-left: -10%;
+    float: left;
+    margin-top: 19px;
+    text-decoration: none;
+    color: #020412;
+    font-size: 17px;
+}
+
+.footer-style > #footer-style-container > #footer-style-contect-us > a:hover
+{
+    color: blue;
+    text-decoration: underline;
+}
+
+.footer-style > #footer-style-container > #footer-style-menu
+{
+    height: 100%;
+    width: 25%;
+    position: relative;
+    float: left;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.footer-style > #footer-style-container > #footer-style-menu > h3
+{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 17%;
+}
+
+.footer-style > #footer-style-container > #footer-style-menu > ul
+{
+    list-style-type: none;
+}
+
+.footer-style > #footer-style-container > #footer-style-menu > ul > li
+{
+    padding-bottom: 8px;
+}
+
+.footer-style > #footer-style-container > #footer-style-menu > ul > li > a
+{
+    margin-left: 6%;
+    text-decoration: none;
+    font-size: 17px;
+    color: #020412;
+}
+
+.footer-style > #footer-style-container > #footer-style-menu > ul > li > a:hover
+{
+    color: blue;
+    text-decoration: underline;
+}
+
+.footer-style > #footer-style-container > #footer-style-follow-us
+{
+    height: 100%;
+    width: 25%;
+    position: relative;
+    float: left;
+    margin-left: 100px;
+}
+
+.footer-style > #footer-style-container > #footer-style-follow-us > h3
+{
+    margin-left: 57%;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-right: -18%;
+}
+
+.footer-style > #footer-style-container > #footer-style-follow-us > ul
+{
+    list-style-type: none;
+}
+
+.footer-style > #footer-style-container > #footer-style-follow-us > ul > li
+{
+    margin-left: 26%;
+    margin-right: 0%;
+    padding-bottom: 4px;
+    padding-left: 38%;
+}
+
+.footer-style > #footer-style-container > #footer-style-follow-us > ul > li > a
+{
+    position: absolute;
+    padding-left: 8px;
+    padding-top: 4px;
+    text-decoration: none;
+    color: #020412;
+}
+
+.footer-style > #footer-style-container > #footer-style-follow-us > ul > li > a:hover
+{
+    color: blue;
+    text-decoration: underline;
+}
+ .footer-style > #footer-style-address > img
+{
+    position: relative;
+    float: left;
+    padding-top: 10px;
+    padding-left: 35%;
+} 
+
+
+.footer-style > #footer-style-address
+{
+    color: #020412;
+    text-align: center;
+    padding: 7px;
+}
+
+.footer-style > #footer-style-address > p
+{
+    color: #020412;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    font-size: 13px;
+}
+
+
+

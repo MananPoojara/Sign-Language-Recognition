@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/static/CSS/home.css">
+</head>
+<body>
+        
+    <div id="particles-js"></div>
+
+    <div class="na  vbar">
+        <img src='/static/IMAGES/logo.png' alt="Error" height="40px">
+        <span>I.S.L.R</span>
+        <ul>
+            <li><a href='/HTML/home.html'>HOME</a></li>
+            <li><a href='/HTML/slrlab.html'>SLR LAB</a></li>
+            <li><a href='/HTML/help.html'>HELP CENTER</a></li>
+            <li><a href='/HTML/technology.html'>TECHNOLOGY</a></li>
+        </ul>
+    </div>
+    <div  class="text-box">
+            <h1 class="text">I.S.L.R FOR <span class="auto-input"></span></h1>
+            <p>Enhance the communication between normal people and people who can't speak. <br> You can easily convert sign language into english and also you can here audio of that</p>
+            <a class="btn" href="/HTML/slrlab.html">GET STARTED</a>
+    </div>
+    
+
+        <div class="cont-1">
+            <img id="slr_tech_logo" src="/static/IMAGES/shaking-hands.png" alt="" height="50px">
+            <h1>About Technology</h1>
+
+            <h4>The goal of this website is to translate Indian sign language into English and audio format, We use the concept of Neural Network, If you want to learn more about the technology</h4> 
+            <a href="/HTML/technology.html" id="btn2">Click here</a>
+            <img id="nural_net_gif" src="/static/IMAGES/nural-network.gif" alt="" height="290px">
+        </div>
+
+
+        <div class="cont-2">
+            <img class="slr_lab_img" src="/static/IMAGES/slr_lab_img.gif" alt="" height="350px" width="500px">
+            <img class="slr_lab_logo" src="/static/IMAGES/sign-language.png" alt="" height="50px"><h1>SLR LAB</h1>
+
+            <h4>The shape, orientation, movement, and location of the hands are some of the key parameters of sign language. You can convert indian sign language into English format as well as you can here audio of that, If you want to use our lab,</h4>
+            <a href="/HTML/slrlab.html" id="btn3">Click here</a>
+        </div>
+
+        <div class="cont-3">
+            <img id="help_section_logo" src='/static/IMAGES/help.png' alt="" height="50px">
+            <h1>Help section</h1>
+
+            <h4>If you don't know sign language, don't worry; on this website, we provide a help section in which you can learn Indian sign language easily.</h4>   
+            
+            <iframe id="help_section_link" width="560" height="315" src="https://www.youtube.com/embed/Vj_13bdU4dU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <iframe id="help_section_link2" width="560" height="315" src="https://www.youtube.com/embed/XiyJFuz01PE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a id="btn4" href="/HTML/help.html">Click here</a>
+        </div>
+
+
+        
+        <script src="/static/JS/particles.js-master/particles.js-master/particles.js"></script>
+        <script src="/static/JS/particles.js-master/particles.js-master/demo/js/app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> 
+        <script>
+            var typed = new Typed(".auto-input", {
+                strings: ["TRANSLATE SIGN LANGUAGE ANYWARE", "YOUR BETTER COMMUNICATION"],
+                typeSpeed: 90,
+                backSpeed: 90,
+                loop: true
+                
+            })
+            </script>
+            <script type="text/javascript">
+                document.addEventListener("mousemove" , parallax);
+                function parallax(e){
+                    this.querySelectorAll('.layer').forEach(layer => {
+                        const speed = layer.getAttribute('data-speed')
+
+                        const x = (window.innerWidth - e.pageX*speed)
+                        const y = (window.innerHeight - e.pageY*speed)
+
+                        layer.style.transform = 'translateX(${x}px) translateY(${y}px)'
+                    });
+                }
+
+            </script>
+</body>
+        <footer class="footer-style" >
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+            
+
+            <div id="footer-style-container">
+                <div id="footer-style-contect-us">
+                    <h3>CONTECT US</h3>
+                    <h4>if you have any query related to this website then mail us on</h4>
+                    <img src='/static/IMAGES/gmail.png' alt="error" height="20px">
+                    <a href="#">
+                        project206090@gmail.com
+                    </a>
+                </div>
+        
+                <div id="footer-style-menu">
+                    <h3>MENU</h3>
+                    <ul>
+                        <li><a href='/HTML/home.html'>Home</a></li>
+                        <li><a href='/HTML/slrlab.html'>SLR LEB</a></li>
+                        <li><a href='/HTML/help.html'>Help section</a></li>
+                        <li><a href='/HTML/technology.html'>Technology</a></li>
+                    </ul>
+                </div>
+        
+                <div id="footer-style-follow-us">
+                    <h3>FOLLOW US</h3>
+                    <ul>
+                        <li><img src='/static/IMAGES/github_logo.png' alt="error" height="25px"><a href="#">github</a></li>
+                        <li><img src='/static/IMAGES/linked_in_logo.png' alt="error" height="25px"><a href="#">linked in</a></li>
+                        <li><img src='/static/IMAGES/twitter_logo.png' alt="error" height="25px"><a href="#">twitter</a></li>
+                        <li><img src='/static/IMAGES/facebook_logo.png' alt="error" height="25px"><a href="#">facebook</a></li>
+                    </ul>
+                </div>
+        
+            </div>
+            <div id="footer-style-address">
+                <!-- <img src="/IMAGES/location_logo.png" alt="error" height="25px"> -->
+                <p>c.u.shah polytechnic surendranagar, wadhwan, gujarat, india</p>
+            </div>
+        </footer>   
+</html>

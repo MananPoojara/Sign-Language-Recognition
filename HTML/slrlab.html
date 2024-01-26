@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLR LEB</title>
+    <link rel="stylesheet" href='/static/CSS/slrlab.css'>
+</head>
+<body>
+    <div id="particles-js">
+
+    </div>
+    <div class="navbar">
+        <img src='/static/IMAGES/logo.png' alt="Error" height="40px">
+        <span>I.S.L.R</span>
+        <ul>
+            <li><a href='/HTML/home.html'>HOME</a></li>
+            <li><a href='/HTML/slrlab.html'>SLR LAB</a></li>
+            <li><a href='/HTML/help.html'>HELP CENTER</a></li>
+            <li><a href='/HTML/technology.html'>TECHNOLOGY</a></li>
+        </ul>
+    </div>
+
+
+        
+    <div class="slr_container-1">
+        <h1>SLR LAB</h1>
+        
+        <h4>SLRLab is the solutions for instant access to sign language translation.You can easily convert your sign language into english laguage and also you can also hear Audio of that.</h4>
+        <a href="#main" id="btn2">Learn More</a>
+    </div>
+
+
+    <div class="slr_cont-2">
+        <div class="text">
+            <h4>
+                Cameras are used to capture, analyze, and translate the core elements of sign language
+            </h4>
+        </div>
+    </div>
+    
+    <div class="slr_leb_container_2">
+        <form id="main" method="post">
+            <button id="btn_open" type="submit" >OPEN CAMERA</button>
+            <button id="btn_close" type="sumbit" formaction='close'>CLOSE CAMERA</button>
+            <div id="video_camera_container">  
+                <img src='/static/IMAGES/slr_lab_blur_img.png' height="100%" width="100%">
+                <img class="no_vid" src="/static/IMAGES/no-video.png" alt="" height="64px">
+                <h1>Click On "Allow"</h1>
+            </div>
+        </form>
+    </div>
+    <div id="slr_leb_output_container">
+        <h1>Pridicted Charactor: <span id="viewPridiction"></span></h1>
+        <h1>Text: <span id="outputText"></span></h1>
+        <h1>Audio:  <img src='/static/IMAGES/slr_lab_audio_icon.png' alt="error" height="40px" onclick="listenAudio();"></h1>
+        <button id="btn_clear" onclick="clearText();">CLEAR</button>
+    </div>
+    
+
+    <script type="text/javascript" src="/static/JS/particles.js-master/particles.js-master/particles.js"  ></script>
+    <script type="text/javascript" src="/static/JS/particles.js-master/particles.js-master/demo/js/app.js"></script>
+</body>
+<footer class="footer-style" >
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </div>
+    
+
+    <div id="footer-style-container">
+        <div id="footer-style-contect-us">
+            <h3>CONTECT US</h3>
+            <h4>if you have any query related to this website then mail us on</h4>
+            <img src='/static/IMAGES/gmail.png' alt="error" height="20px">
+            <a href="#">
+                project206090@gmail.com
+            </a>
+        </div>
+
+        <div id="footer-style-menu">
+            <h3>MENU</h3>
+            <ul>
+                <li><a href='/Website2/HTML/home.html'>Home</a></li>
+                <li><a href='/Website2/HTML/slrlab.html'>SLR LEB</a></li>
+                <li><a href='/Website2/HTML/help.html'>Help section</a></li>
+                <li><a href='/Website2/HTML/technology.html'>Technology</a></li>
+            </ul>
+        </div>
+
+        <div id="footer-style-follow-us">
+            <h3>FOLLOW US</h3>
+            <ul>
+                <li><img src='/static/IMAGES/github_logo.png' alt="error" height="25px"><a href="#">github</a></li>
+                <li><img src='/static/IMAGES/linked_in_logo.png' alt="error" height="25px"><a href="#">linked in</a></li>
+                <li><img src='/static/IMAGES/twitter_logo.png' alt="error" height="25px"><a href="#">twitter</a></li>
+                <li><img src='/static/IMAGES/facebook_logo.png' alt="error" height="25px"><a href="#">facebook</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div id="footer-style-address">
+        <p>c.u.shah polytechnic surendranagar, wadhwan, gujarat, india</p>
+    </div>
+</footer>    
+</html>
+    
